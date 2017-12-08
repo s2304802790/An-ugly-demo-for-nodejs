@@ -1,0 +1,10 @@
+<% include header.html %>
+			<form action="/upload_image" method=post enctype="multipart/form-data">
+				<input type="file" name="file"></input>
+				<input type="submit" value="上传图片"></input>
+			</form>
+			<form action="/upload_markdown" method=post enctype="multipart/form-data">
+				<input type="file" name="file"></input>
+				<input type="submit" value="上传MD"></input>
+			</form>
+<% include footer.html %>
