@@ -1,7 +1,7 @@
 var express = require('express');
 var fs = require('fs');
 var multer = require('multer');
-var saferman = require('../database/saferman')('3300978abc');
+var saferman = require('../database/saferman')('---------');
 var upload = multer({dest:'upload/'});
 var router = express.Router();
 
