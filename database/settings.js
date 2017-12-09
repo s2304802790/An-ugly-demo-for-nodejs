@@ -4,6 +4,6 @@ module.exports={
 	file_database:'filemanager',
 	session_database:'session',
 	username:'root',
-	password:'3300978abc',
+	password:'---------',
 	cookie_secret : 's2304802790'
 };
