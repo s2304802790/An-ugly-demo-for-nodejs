@@ -12,7 +12,7 @@ var settings = require('./database/settings');
 var saferman = require('./database/saferman');
 var upload_image = multer({dest: 'uploads/image/' });
 var upload_markdown = multer({dest: 'uploads/markdown/'});
-var saferman = require('./database/saferman')('3300978abc');
+var saferman = require('./database/saferman')('---------');
 
 var routes = require('./routes/index');
 var users = require('./routes/users');
